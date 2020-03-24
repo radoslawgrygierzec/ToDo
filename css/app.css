@@ -1,3 +1,50 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+body {
+  background-color: #e1e4f0;
+  display: flex;
+  justify-content: center; }
 
+.container {
+  background-color: #21253f;
+  width: 1440px;
+  height: 900px;
+  border-radius: 20px; }
+
+.left_block {
+  width: 420px;
+  margin: 0px;
+  float: left;
+  padding: 150px; }
+
+.projects_area {
+  display: flex;
+  flex-wrap: wrap; }
+
+.right_block {
+  background-color: #ffffff;
+  width: 700px;
+  height: 880px;
+  float: left;
+  margin: 10px;
+  border-radius: 20px; }
+
+nav {
+  font-family: "FontAwesome";
+  color: #ffffff;
+  background-color: #393d53;
+  padding: 15px;
+  border-radius: 12px;
+  width: fit-content;
+  position: relative;
+  left: -120px;
+  top: -120px; }
+
+input {
+  width: 420px;
+  background-color: #393d53;
+  padding: 18px;
+  border-radius: 10px;
+  border-color: #393d53; }
 
 /*# sourceMappingURL=app.css.map */

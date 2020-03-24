@@ -1,0 +1,27 @@
+.container {
+    background-color: $brand-primary;
+    width: 1440px;
+    height: 900px;
+    border-radius: $border-radius;
+}
+
+.left_block {
+    width: 420px;
+    margin: 0px;
+    float: left;
+    padding: 150px;
+}
+
+.projects_area {
+    display: flex;
+    flex-wrap: wrap;;
+}
+
+.right_block {
+    background-color: $white;
+    width: 700px;
+    height: 880px;
+    float: left;
+    margin: 10px;
+    border-radius: $border-radius;
+}
