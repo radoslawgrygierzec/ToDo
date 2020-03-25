@@ -2,4 +2,49 @@ body {
     background-color: $brand-secondary;
     display: flex;
     justify-content: center;
+    color: $white;
+    font-family: $font-family-base;
+}
+
+img {
+    width: 110px;
+    height: 110px;
+    border-radius: 30px;
+}
+
+.project_box {
+    position: relative;
+}
+
+.block_title {
+    position: absolute;
+    color: $white;
+    font-size: 2rem;
+    left: 30%;
+    top: 20%;
+}
+
+h1 {
+    margin: 0;
+    display: block;
+}
+
+h4 {
+    color: $brand-gray;
+    display: block;
+    width: 420px;
+    text-align: justify;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+h3 span {
+    color: $brand-gray;
+}
+.project_box h4{
+    text-align: center;
+    width: fit-content;
+    padding: 10px 0 40px;
+    margin: 0;
 }

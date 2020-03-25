@@ -7,14 +7,17 @@
 
 .left_block {
     width: 420px;
+    height: 600px;
     margin: 0px;
     float: left;
-    padding: 150px;
+    padding: 115px 150px 185px;
+    position: relative;
 }
 
 .projects_area {
     display: flex;
-    flex-wrap: wrap;;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .right_block {

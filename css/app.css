@@ -1,9 +1,48 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
-@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+@import "https://fonts.googleapis.com/css?family=Hind+Madurai:600&display=swap";
 body {
   background-color: #e1e4f0;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Hind Madurai", sans-serif; }
+
+img {
+  width: 110px;
+  height: 110px;
+  border-radius: 30px; }
+
+.project_box {
+  position: relative; }
+
+.block_title {
+  position: absolute;
+  color: #ffffff;
+  font-size: 2rem;
+  left: 30%;
+  top: 20%; }
+
+h1 {
+  margin: 0;
+  display: block; }
+
+h4 {
+  color: #747886;
+  display: block;
+  width: 420px;
+  text-align: justify;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  margin: 10px 0; }
+
+h3 span {
+  color: #747886; }
+
+.project_box h4 {
+  text-align: center;
+  width: fit-content;
+  padding: 10px 0 40px;
+  margin: 0; }
 
 .container {
   background-color: #21253f;
@@ -13,13 +52,16 @@ body {
 
 .left_block {
   width: 420px;
+  height: 600px;
   margin: 0px;
   float: left;
-  padding: 150px; }
+  padding: 115px 150px 185px;
+  position: relative; }
 
 .projects_area {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: space-between; }
 
 .right_block {
   background-color: #ffffff;
@@ -36,15 +78,16 @@ nav {
   padding: 15px;
   border-radius: 12px;
   width: fit-content;
-  position: relative;
-  left: -120px;
-  top: -120px; }
+  position: absolute;
+  left: 20px;
+  top: 20px; }
 
 input {
-  width: 420px;
+  width: 384px;
   background-color: #393d53;
   padding: 18px;
+  border: 0;
   border-radius: 10px;
-  border-color: #393d53; }
+  margin: 30px 0 60px; }
 
 /*# sourceMappingURL=app.css.map */
