@@ -22,9 +22,11 @@
 
 .right_block {
     background-color: $white;
-    width: 700px;
-    height: 880px;
-    float: left;
-    margin: 10px;
     border-radius: $border-radius;
+    width: 560px;
+    height: 710px;
+    margin: 10px;
+    padding: 70px 70px 100px;
+    position: relative;
+    float: left;
 }

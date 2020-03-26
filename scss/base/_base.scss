@@ -29,6 +29,27 @@ h1 {
     display: block;
 }
 
+.right_block h2 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.right_block h3 {
+    color: black;
+}
+
+ul {
+    color: black;
+    margin: 0;
+    list-style: none;
+    
+}
+
+ul input {
+    margin: 0;
+    width: unset;
+}
+
 h4 {
     color: $brand-gray;
     display: block;
@@ -39,6 +60,13 @@ h4 {
     margin: 10px 0;
 }
 
+.right_block h4 {
+    text-align: left;
+    word-spacing: unset;
+    letter-spacing: unset;
+    font-size: 16px;
+}
+
 h3 span {
     color: $brand-gray;
 }
@@ -47,4 +75,8 @@ h3 span {
     width: fit-content;
     padding: 10px 0 40px;
     margin: 0;
+}
+
+h2 {
+    color: black;
 }
